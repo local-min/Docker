@@ -1,0 +1,13 @@
+LICENSE
+Makefile
+README.md
+data
+docs
+models
+notebooks
+references
+reports
+setup.py
+src
+tox.ini
+.Trash-0
