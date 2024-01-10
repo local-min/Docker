@@ -3,15 +3,17 @@ This project showcases the use of `Jupyterlab` as a data analysis environment.
 
 ## Directory structure
 ---
+```
 .<br>
-├── Dockerfile<br>
-├── clean-layer.sh<br>
-├── docker-compose.yml<br>
-├── input<br>
-├── notebook<br>
-├── output<br>
-├── requirements_conda.txt<br>
-└── requirements_pip.txt<br>
+├── Dockerfile
+├── clean-layer.sh
+├── docker-compose.yml
+├── input
+├── notebook
+├── output
+├── requirements_conda.txt
+└── requirements_pip.txt
+```
 
 ## How to use
 ---
