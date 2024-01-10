@@ -1,19 +1,19 @@
 # Jupyterlab
 This project showcases the use of `Jupyterlab` as a data analysis environment.
 
-### Directory structure
+## Directory structure
 ---
-.
-├── Dockerfile
-├── clean-layer.sh
-├── docker-compose.yml
-├── input
-├── notebook
-├── output
-├── requirements_conda.txt
-└── requirements_pip.txt
+.<br>
+├── Dockerfile<br>
+├── clean-layer.sh<br>
+├── docker-compose.yml<br>
+├── input<br>
+├── notebook<br>
+├── output<br>
+├── requirements_conda.txt<br>
+└── requirements_pip.txt<br>
 
-### How to use
+## How to use
 ---
 Clone this repo and run the below docker command:
 
