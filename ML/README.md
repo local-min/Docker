@@ -4,48 +4,50 @@ Directory structure below contains example files/directries like fnn, lightgbm a
 
 ## Directory structure
 ---
-.<br>
-├── Dockerfile<br>
-├── LICENSE<br>
-├── Makefile<br>
-├── README.md<br>
-├── clean-layer.sh<br>
-├── data<br>
-│   ├── external<br>
-│   ├── intrim<br>
-│   ├── processed<br>
-│   └── raw<br>
-├── docker-compose.yml<br>
-├── docs<br>
-├── models<br>
-├── notebooks<br>
-├── references<br>
-├── reports<br>
-│   └── figures<br>
-├── requirements_conda.txt<br>
-├── requirements_pip.txt<br>
-├── setup.py<br>
-├── src<br>
-│   ├── __init__.py<br>
-│   ├── data<br>
-│   │   └── make_dataset.py<br>
-│   ├── models<br>
-│   │   ├── base<br>
-│   │   │   ├── __init__.py<br>
-│   │   │   ├── model.py<br>
-│   │   │   └── preprocess.py<br>
-│   │   ├── fnn<br>
-│   │   │   ├── __init__.py<br>
-│   │   │   ├── model.py<br>
-│   │   │   └── preprocess.py<br>
-│   │   └── lightgbm<br>
-│   │       ├── __init__.py<br>
-│   │       ├── model.py<br>
-│   │       └── preprocess.py<br>
-│   ├── train.py<br>
-│   └── visualization<br>
-│       └── visualize.py<br>
-└── tox.ini<br>
+```
+.
+├── Dockerfile
+├── LICENSE
+├── Makefile
+├── README.md
+├── clean-layer.sh
+├── data
+│   ├── external
+│   ├── intrim
+│   ├── processed
+│   └── raw
+├── docker-compose.yml
+├── docs
+├── models
+├── notebooks
+├── references
+├── reports
+│   └── figures
+├── requirements_conda.txt
+├── requirements_pip.txt
+├── setup.py
+├── src
+│   ├── __init__.py
+│   ├── data
+│   │   └── make_dataset.py
+│   ├── models
+│   │   ├── base
+│   │   │   ├── __init__.py
+│   │   │   ├── model.py
+│   │   │   └── preprocess.py
+│   │   ├── fnn
+│   │   │   ├── __init__.py
+│   │   │   ├── model.py
+│   │   │   └── preprocess.py
+│   │   └── lightgbm
+│   │       ├── __init__.py
+│   │       ├── model.py
+│   │       └── preprocess.py
+│   ├── train.py
+│   └── visualization
+│       └── visualize.py
+└── tox.ini
+```
 
 ## How to use
 ---
