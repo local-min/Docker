@@ -4,7 +4,7 @@ This project showcases the use of `Jupyterlab` as a data analysis environment.
 ## Directory structure
 ---
 ```
-.<br>
+.
 ├── Dockerfile
 ├── clean-layer.sh
 ├── docker-compose.yml
