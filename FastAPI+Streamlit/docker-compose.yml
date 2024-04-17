@@ -1,0 +1,33 @@
+version: '3'
+services:
+  app:
+    build: ./docker/streamlit
+    volumes: 
+      - .:/tmp/working
+    working_dir: /tmp/working
+    restart: unless-stopped
+    depends_on:
+      - backend
+    networks:
+      - st_fastapi_net
+    environment:
+      BACKEND_HOST: backend:80
+    ports:
+      - 8080:8080
+
+  backend:
+    build: ./docker/fastapi
+    volumes: 
+      - .:/tmp/working
+    working_dir: /tmp/working
+    restart: unless-stopped
+    networks:
+      - st_fastapi_net
+    ports:
+      - 80:80
+    environment:
+      APP_MODULE: server:app
+
+networks:
+  st_fastapi_net:
+    driver: bridge

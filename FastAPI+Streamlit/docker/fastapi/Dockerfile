@@ -1,6 +1,4 @@
 FROM tiangolo/uvicorn-gunicorn:python3.11-slim
 
-ADD clean-layer.sh /tmp/clean-layer.sh
-COPY requirements_conda.txt ./
-COPY requirements_pip.txt ./
-
+COPY requirements.txt ./
+RUN pip3 install --no-cache-dir -r requirements.txt
